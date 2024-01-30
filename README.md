@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Workbench&duration=2500&pause=500&color=B5E853&repeat=false&random=false&width=435&lines=.%2F+Cyber+Security+Blog)](https://blog.the1ntern.net/)
+
 # Overview
 
 Thank you for visiting my site.
