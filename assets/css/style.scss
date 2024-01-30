@@ -3,6 +3,7 @@
 
 @import "jekyll-theme-hacker";
 
-.highlight {
+pre {
     word-wrap: break-word;
+    white-space: pre-wrap;
 }
