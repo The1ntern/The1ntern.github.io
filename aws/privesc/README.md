@@ -4,6 +4,6 @@ Documentation of tactics, techniques, and procedures for privilege escalation wi
 
 # Contents
 
-[Privilege Escalation w/ Cross Account Lambda Invocation](https://blog.the1ntern.net/aws/privesc/xacclambdainvoke)
+[Cross Account Lambda Invocation](https://blog.the1ntern.net/aws/privesc/xacclambdainvoke)
 
 [Back to Home](https://blog.the1ntern.net)
