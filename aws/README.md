@@ -4,6 +4,6 @@ Documentation of offensive security techniques when operating within the AWS clo
 
 # Contents 
 
-[Privilege Escalation](https://blog.the1ntern.net/ctf/privesc)
+[Privilege Escalation](https://blog.the1ntern.net/aws/privesc)
 
 [Back to Home](https://blog.the1ntern.net)
