@@ -1,4 +1,4 @@
-# WiFi Tricks
+# Wi-Fi
 
 Interesting technique(s) which can be used related to Wi-Fi.
 
