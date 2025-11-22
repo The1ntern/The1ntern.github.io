@@ -10,4 +10,6 @@ The goal of this site is to provide educational material on topics within penetr
 
 [Capture the Flag (CTF)](https://blog.the1ntern.net/ctf)
 
+[RaspberryPi](https://blog.the1ntern.net/raspberrypi/)
+
 [Wi-Fi](https://blog.the1ntern.net/wifi)
