@@ -42,7 +42,7 @@ Something that I have wanted to explore is the option to schedule when a block i
     ```
 
 1. In order to schedule when a blocklist is enabled/disabled the SQLite database used will be manipulated. To do so, the ID of the blocklist is needed. Two options can be used to find this ID. 
-1. 
+
     1. Navigate to `https://pihole.local/admin/groups/lists` and find the blocklist added. Click on the "🚫". The value "Database ID" is what will be used.
     
         ![ID for the List](./imgs/displace_monitor.png)
