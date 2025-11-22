@@ -62,7 +62,7 @@ Something that I have wanted to explore is the option to schedule when a block i
     
     ![Example database entry](./imgs/eggnog_tackle.png)
 
-1. With the ID of the blocklist that is intended to be used collect, the scripts to facilitate the database changes can be created.
+1. With the ID of the blocklist that is intended to be used collect, the script to facilitate the database changes can be created.
 
     ```bash
     touch /home/pi/block-tool.sh
@@ -78,10 +78,10 @@ Something that I have wanted to explore is the option to schedule when a block i
     blocklist="$2"
     
     if [[ "$1" == "block" ]]; then
-    	echo "[+] Block distracting sites..."
+    	echo "[+] Block sites..."
     	sudo sqlite3 /etc/pihole/gravity.db "update adlist set enabled = true where id = ${blocklist};"
     elif [[ "$1" == "unblock" ]]; then
-    	echo "[+] Unblocking distractions..."
+    	echo "[+] Unblocking sites..."
     	sudo sqlite3 /etc/pihole/gravity.db "update adlist set enabled = false where id = ${blocklist};"
     else
     	echo "[!] Unknown option."
