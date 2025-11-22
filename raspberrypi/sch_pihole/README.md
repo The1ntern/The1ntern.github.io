@@ -98,7 +98,18 @@ Something that I have wanted to explore is the option to schedule when a block i
  
     This script accepts to arguments, either block/unblock and the ID of the adlist. An example execution would be `./block-tool.sh block 61`.
 
-1. Last step is to create 2 cronjobs, one to enable the block and one to disable on the chosen schedule. A tool which can assist in setting this schedule is [Cronitor](https://crontab.guru/).
+1. Last step is to create 2 cronjobs, one to enable the block and one to disable on the chosen schedule. A tool which can assist in setting this schedule is [Cronitor](https://crontab.guru/). Execute `sudo crontab -e` and create new jobs. Example below:
+
+    ```bash
+    # At 07:00 on Saturday
+    0 7 * * 6 bash -lc "/home/pi/block-tool.sh block 61"
+    # At 00:00 on Sunday
+    0 0 * * 0 bash -lc "/home/pi/block-tool.sh unblock 61"
+    ```
+    
+    Cron will use the timezone configured on the device, to check this use `timedatectl`.
+
+1. At this point everything can be configured, modified, and added to at your choosing. Domains will be blocked and unblocked on schedule for specific devices.
 
 ## References
 
