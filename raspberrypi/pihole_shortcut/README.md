@@ -27,6 +27,7 @@ The instructions below will provide guidance on how to use Apple Shortcuts to cr
     **Method:** POST
     
     **Headers:**
+
     | Key | Text |
     | --- | ---- |
     | Content-Type | application/json |
@@ -75,6 +76,7 @@ The instructions below will provide guidance on how to use Apple Shortcuts to cr
     For the value `X-FTL-SID` the variable `SID` is selected.
 
     **Headers:**
+
     | Key | Text |
     | --- | ---- |
     | Content-Type | application/json |
