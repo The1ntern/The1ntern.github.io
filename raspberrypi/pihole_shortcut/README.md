@@ -49,11 +49,11 @@ The instructions below will provide guidance on how to use Apple Shortcuts to cr
 
 1. With the session information collected specific values need to be parsed. Search for "Get Dictionary Value" and configure it as follows:
 
-    "Get `Value` for `sid` in `Dictionary Value`.
+    "Get `Value` for `sid` in `Dictionary Value`"
 
 1. Finally, the `sid` is going to be assigned to a variable. Search for "Set Variable" and configure it with:
 
-    "Set variable `SID` to `Dictionary Value`.
+    "Set variable `SID` to `Dictionary Value`"
 
     After following the steps above, the following should be preset.
 
